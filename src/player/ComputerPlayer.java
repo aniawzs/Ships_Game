@@ -1,7 +1,7 @@
-package players;
+package player;
 
-        import contollers.BoardController;
-        import utils.Message;
+import board.BoardController;
+import utils.Message;
 
 public class ComputerPlayer extends Player {
     private BoardController boardController;

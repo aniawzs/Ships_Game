@@ -1,4 +1,4 @@
-package helpers;
+package board;
 
 import utils.Message;
 import utils.Printer;
@@ -21,11 +21,11 @@ public class BoardsHelper {
         this.printer = new Printer();
     }
 
-    public String[][] getComputerPlayerGuessesBoard() {
+    String[][] getComputerPlayerGuessesBoard() {
         return computerPlayerGuessesBoard;
     }
 
-    public String[][] getComputerGuessesBoard() {
+    String[][] getComputerGuessesBoard() {
         return computerGuessesBoard;
     }
 
@@ -37,11 +37,11 @@ public class BoardsHelper {
         return computerCorrectGuesses;
     }
 
-    public void countComputerCorrectGuesses() {
+    void countComputerCorrectGuesses() {
         computerCorrectGuesses++;
     }
 
-    public void countComputerPlayerCorrectGuesses() {
+    void countComputerPlayerCorrectGuesses() {
         computerPlayerCorrectGuesses++;
     }
 

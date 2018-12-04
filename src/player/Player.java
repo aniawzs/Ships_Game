@@ -1,4 +1,4 @@
-package players;
+package player;
 
 public abstract class Player {
     private String[][] playerBoard;

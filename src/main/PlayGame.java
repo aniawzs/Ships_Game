@@ -1,10 +1,10 @@
 package main;
 
-import contollers.BoardController;
-import helpers.BoardsHelper;
-import players.Computer;
-import players.ComputerPlayer;
-import players.Player;
+import board.BoardController;
+import board.BoardsHelper;
+import player.Computer;
+import player.ComputerPlayer;
+import player.Player;
 import utils.Message;
 
 import java.util.Random;

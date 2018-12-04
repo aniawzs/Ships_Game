@@ -1,8 +1,7 @@
-package contollers;
+package board;
 
-import helpers.BoardsHelper;
-import players.Computer;
-import players.ComputerPlayer;
+import player.Computer;
+import player.ComputerPlayer;
 import utils.Message;
 
 import java.util.Random;

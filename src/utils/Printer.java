@@ -6,7 +6,7 @@ public class Printer {
     }
 
 
-    public void printf(String textToPrint, Object formatter){
+    void printf(String textToPrint, Object formatter){
         System.out.printf(textToPrint, formatter);
     }
 }
